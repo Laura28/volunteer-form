@@ -8,8 +8,14 @@ html {
   padding: .5em;
 }
 
-input {
+input,
+select,
+textarea {
   border-color: #6e8c62;
+}
+
+.yes {
+  padding-right: 1.3em;
 }
 
 button {
@@ -24,6 +30,28 @@ button:hover {
 
 footer {
   background-color: #70ad55;
+  margin-top: 1em;
+}
+
+textarea {
+  height: 10em;
+}
+
+hr {
+  color: #6e8c62;
+  padding: 1em;
+}
+
+small {
+  color: #fff;
+}
+
+@media only screen and (min-width: 40em) {
+
+  label {
+    padding-left: .25em;
+    padding-right: .25em;
+  }
 }
 
 @media only screen and (min-width: 60em) {
